@@ -1,0 +1,12 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.analysis.extraPaths": [
+    "/usr/local/webots/lib/controller/python"
+  ],
+  "terminal.integrated.env.linux": {
+    "WEBOTS_HOME": "/usr/local/webots",
+    "PYTHONPATH": "/usr/local/webots/lib/controller/python:${env:PYTHONPATH}",
+    "LD_LIBRARY_PATH": "/usr/local/webots/lib/controller:${env:LD_LIBRARY_PATH}"
+  },
+  "cmake.sourceDirectory": "/home/doantuyen/PBL3-LTM/tools/ns-3.47"
+}

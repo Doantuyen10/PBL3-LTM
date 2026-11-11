@@ -1,0 +1,22 @@
+{
+  "docx_xml_and_relationships": "PASS",
+  "embedded_figures": 6,
+  "csv_rows": 60,
+  "seeds_per_policy": 30,
+  "csv_json_means": "PASS",
+  "old_bundle_removed": true,
+  "source_hashes": {
+    "drone-rl/webots_world/controllers/epuck_ns3_ping2/epuck_ns3_ping2.py": "ad7ee9b5fe9a99ff42d7fc09bf5e6df77c1d8396ab3485a2481f60ed24f8af0e",
+    "drone-rl/webots_world/controllers/dieukhien/dieukhien.py": "df343b13ae2f35a50807342eb3e18f10237f6aa62ea636795f5c10bb4f398f91",
+    "drone-rl/webots_world/controllers/epuck_ns3_ping/epuck_ns3_ping.py": "74d770763fc26f25ba620321610975658d45ea0a7333bfc138221e87c3ac5607",
+    "drone-rl/webots_world/controllers/mavic2pro_patrol/mavic2pro_patrol.py": "f8f3b9f9c7726e7c685a8ff9e342c00a9eff8074a6b4986e377e190d9186bb78",
+    "drone-rl/webots_world/controllers/epuck_ns3_ping1/epuck_ns3_ping1.py": "f184cfeb7f0bb8e8bbf7075326c1289554a0ca14d1008cc19bd1fc35a887d226",
+    "drone-rl/webots_world/controllers/epuck_ns3_reciever/epuck_ns3_reciever.py": "a276e292a7b957ee0a4624a707804035082dfb7b21d91636066a0c251b5ad6e1",
+    "drone-rl/webots_world/worlds/VD2_vscode.wbt": "972d5d11b472dc8bec90803fb3d0ed0997ef59e15a7b16bfe8125eea85c8cf81",
+    "drone-rl/webots_world/worlds/VD2.wbt": "52f981d3cbbf178c82b7217300152a9420ea6cfd20c54eaae65d4f40d90500bb",
+    "drone-rl/webots_world/worlds/mavic_2_pro.wbt": "cab4423240e20900dcd350f51511e364f3fa65d63ebd49a77b282e573ec12e6b",
+    "tools/ns-3.47/scratch/epuck-ns3-server.cc": "3c2554fd1d46f4321018a9f747afbb3914f1faf050b01115aaaccf0d1bec8809",
+    "tools/ns-3.47/scratch/scratch-simulator.cc": "40572084af4e9010e07a7f423d8b73c8cb1affccef427c1fb43cfac8f568088e",
+    "/home/doantuyen/Downloads/BaoCaoCK_TieuChiDanhGia.pdf": "f5e04faf83d3e0c606162fd45bdf3a7fb5403b5092eebae667da7a11896c7323"
+  }
+}

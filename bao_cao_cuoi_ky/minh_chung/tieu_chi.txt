@@ -1,0 +1,55 @@
+             TIÊU CHÍ ĐÁNH GIÁ BÁO CÁO DỰ ÁN CUỐI KỲ
+
+        Báo cáo không quá 100 trang A4 (Chú ý: không cho code vào báo cáo)
+                      Tổng điểm/thành phần đánh giá: 100 điểm (100%)
+
+
+I. BẢNG TIÊU CHÍ ĐÁNH GIÁ VÀ TỶ LỆ THÀNH PHẦN
+
+ STT Nội dung đánh giá                  Yêu cầu cụ thể                                              Điểm/Tỷ lệ
+                                        Liệt kê nhiệm vụ, sản phẩm và tỷ lệ % đóng góp của
+ 1     Đóng góp của các thành viên      từng thành viên. Tổng tỷ lệ bằng 100%. Nhóm tự thống            5
+                                        nhất và chịu trách nhiệm về tính chính xác.
+                                        Bối cảnh, vấn đề thực tế, hạn chế giải pháp hiện tại, mục
+ 2     Tính cấp thiết và ý nghĩa                                                                        10
+                                        tiêu, ý nghĩa ứng dụng hoặc nghiên cứu.
+                                        Sơ đồ tổng thể; các thành phần, luồng dữ liệu, nguyên lý
+       Sơ đồ kiến trúc và thiết kế hệ
+ 3                                      hoạt động; so sánh hệ thống hiện có và nêu điểm cải tiến        15
+       thống
+                                        (nếu có).
+       Mô hình toán học và phát biểu    Đầu vào, đầu ra, biến, tham số, giả thiết, ràng buộc; mô
+ 4                                                                                                      15
+       bài toán                         hình/hàm mục tiêu; điểm mới hoặc điều chỉnh (nếu có).
+       Triển khai hệ thống và giải      Các bước triển khai, công nghệ, thuật toán, mã giả/lưu
+ 5                                                                                                      20
+       thuật                            đồ, mô phỏng, cấu hình thử nghiệm và cải tiến (nếu có).
+                                        Kịch bản và chỉ số đánh giá; kết quả thực nghiệm/mô
+       Phân tích và đánh giá hiệu
+ 6                                      phỏng; phân tích, so sánh hiệu năng và độ phức tạp              25
+       năng
+                                        thuật toán.
+                                        Kết quả đạt được, mức độ hoàn thành, hạn chế và hướng
+ 7     Kết luận và hướng phát triển                                                                     5
+                                        cải tiến/mở rộng trong tương lai.
+                                        Bố cục, diễn đạt, hình vẽ/bảng biểu, trích dẫn và trình
+ 8     Chất lượng báo cáo                                                                               5
+                                        bày.
+       TỔNG CỘNG                                                                                       100
+
+
+II. LƯU Ý KHI CHUẨN BỊ BÁO CÁO
+
+1. Tính mới: Không bắt buộc tất cả dự án phải có mô hình hoặc giải thuật mới. Nếu dùng giải pháp hiện
+   có, cần giải thích lý do lựa chọn, tính phù hợp và ưu/nhược điểm; không phải mất toàn bộ điểm của
+   mục có yếu tố cải tiến.
+2. Mô hình toán học: Đối với dự án thiên về phát triển phần mềm, có thể sử dụng mô hình dữ liệu, mô
+   hình xử lý, mô hình trạng thái, bài toán tối ưu hoặc đặc tả hình thức phù hợp.
+3. Thực nghiệm: Ưu tiên chỉ số định lượng như thời gian xử lý, độ chính xác, độ trễ, thông lượng, sử
+   dụng tài nguyên, độ phức tạp thời gian và bộ nhớ, tùy loại dự án.
+4. So sánh: Khuyến khích có ít nhất một phương pháp/hệ thống tham chiếu (baseline) khi điều kiện cho
+   phép. Kết luận cải tiến cần có số liệu hoặc lập luận có căn cứ.
+5. Đóng góp: Thành viên tự thống nhất, xác nhận và chịu trách nhiệm về tỷ lệ.
+6. Hướng phát triển: Nếu dự án đã hoàn thiện, cần nêu hạn chế hoặc điều kiện triển khai thực tế thay
+   cho các hướng mở rộng không cần thiết.
+

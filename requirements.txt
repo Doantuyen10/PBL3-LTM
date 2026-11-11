@@ -1,0 +1,4 @@
+# Runtime dependencies; install PyTorch CPU first as described in INSTALL.md.
+numpy>=1.26,<3
+gymnasium>=0.29,<2
+stable-baselines3>=2.3,<3

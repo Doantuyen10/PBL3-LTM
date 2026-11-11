@@ -1,0 +1,5 @@
+# Preserve environment hashes when checking out on another platform.
+drone-rl/webots_world/controllers/dieukhien/relay_env.py text eol=lf
+drone-rl/webots_world/controllers/dieukhien/uav_bs_env.py text eol=lf
+*.zip binary
+*.pkl binary

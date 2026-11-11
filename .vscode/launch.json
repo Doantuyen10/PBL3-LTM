@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Webots: Mavic PPO",
+      "type": "debugpy",
+      "request": "launch",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "program": "${workspaceFolder}/drone-rl/webots_world/controllers/dieukhien/dieukhien.py",
+      "cwd": "${workspaceFolder}/drone-rl/webots_world/controllers/dieukhien",
+      "console": "integratedTerminal",
+      "env": {
+        "WEBOTS_HOME": "/usr/local/webots",
+        "PYTHONPATH": "/usr/local/webots/lib/controller/python:${env:PYTHONPATH}",
+        "LD_LIBRARY_PATH": "/usr/local/webots/lib/controller:${env:LD_LIBRARY_PATH}"
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "Webots: Python file currently open",
+      "type": "debugpy",
+      "request": "launch",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "program": "${file}",
+      "cwd": "${fileDirname}",
+      "console": "integratedTerminal",
+      "env": {
+        "WEBOTS_HOME": "/usr/local/webots",
+        "PYTHONPATH": "/usr/local/webots/lib/controller/python:${env:PYTHONPATH}",
+        "LD_LIBRARY_PATH": "/usr/local/webots/lib/controller:${env:LD_LIBRARY_PATH}"
+      },
+      "justMyCode": true
+    }
+  ]
+}

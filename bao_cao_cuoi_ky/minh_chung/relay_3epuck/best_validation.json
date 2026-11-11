@@ -1,0 +1,8 @@
+{
+  "steps": 262144,
+  "seconds": 48.3,
+  "exact_coverage": 1.0,
+  "exact_worst_m": 141.80267980542538,
+  "validation_coverage": 0.998125,
+  "score": 108.56322320194575
+}

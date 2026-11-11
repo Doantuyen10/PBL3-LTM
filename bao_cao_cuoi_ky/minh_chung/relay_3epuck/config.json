@@ -1,0 +1,15 @@
+{
+  "contract": "relay_3epuck_v1",
+  "altitude_m": 30,
+  "radius_m": 150,
+  "seed": 42,
+  "total_steps_requested": 327680,
+  "training": "new PPO from scratch",
+  "obs_dim": 18,
+  "action": "normalized acceleration",
+  "v_max": 5,
+  "a_max": 2,
+  "dt": 1,
+  "episode_steps": 200,
+  "env_sha256": "95dbdeb96b7af6cc2f67c5aa2f56bef4ae894a30369114bc2e6dbcc332a598d8"
+}

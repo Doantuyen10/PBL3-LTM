@@ -1,0 +1,236 @@
+{
+  "PPO": {
+    "bits_Mbit": {
+      "mean": 891.531321306148,
+      "sd": 262.1078304324806
+    },
+    "energy_kJ": {
+      "mean": 27.976990417859675,
+      "sd": 1.1738040509981362
+    },
+    "EE_bit_J": {
+      "mean": 31741.757365903224,
+      "sd": 8695.630339955425
+    },
+    "rate_Mbps": {
+      "mean": 4.4576566065307395,
+      "sd": 1.3105391521624032
+    },
+    "min_user_rate_Mbps": {
+      "mean": 0.3471403145150757,
+      "sd": 0.22276795703151242
+    },
+    "path_m": {
+      "mean": 1747.6572631283846,
+      "sd": 459.36013622196765
+    },
+    "reward": {
+      "mean": 20.01604182719009,
+      "sd": 30.527309817053908
+    },
+    "steps": {
+      "mean": 200.0,
+      "sd": 0.0
+    }
+  },
+  "Hover": {
+    "bits_Mbit": {
+      "mean": 570.7037479509803,
+      "sd": 297.48550497523775
+    },
+    "energy_kJ": {
+      "mean": 33.698000000000114,
+      "sd": 7.226896453227138e-15
+    },
+    "EE_bit_J": {
+      "mean": 16935.834410083044,
+      "sd": 8827.986971785764
+    },
+    "rate_Mbps": {
+      "mean": 2.8535187397549024,
+      "sd": 1.4874275248761888
+    },
+    "min_user_rate_Mbps": {
+      "mean": 0.2097415890133823,
+      "sd": 0.12831374308456678
+    },
+    "path_m": {
+      "mean": 0.0,
+      "sd": 0.0
+    },
+    "reward": {
+      "mean": -34.53996164436669,
+      "sd": 32.586618535110354
+    },
+    "steps": {
+      "mean": 200.0,
+      "sd": 0.0
+    }
+  },
+  "paired": {
+    "bits_Mbit": {
+      "mean_difference": 320.82757335516766,
+      "sd_difference": 314.88019479703917,
+      "positive_seeds": 24,
+      "relative_mean_pct": 56.21613218890664
+    },
+    "energy_kJ": {
+      "mean_difference": -5.721009582140448,
+      "sd_difference": 1.1738040509981362,
+      "positive_seeds": 0,
+      "relative_mean_pct": -16.977297115972522
+    },
+    "EE_bit_J": {
+      "mean_difference": 14805.92295582019,
+      "sd_difference": 9405.377778429614,
+      "positive_seeds": 29,
+      "relative_mean_pct": 87.42364029613572
+    },
+    "rate_Mbps": {
+      "mean_difference": 1.6041378667758386,
+      "sd_difference": 1.5744009739851959,
+      "positive_seeds": 24,
+      "relative_mean_pct": 56.21613218890658
+    },
+    "min_user_rate_Mbps": {
+      "mean_difference": 0.13739872550169344,
+      "sd_difference": 0.13028435630191157,
+      "positive_seeds": 28,
+      "relative_mean_pct": 65.508574693275
+    },
+    "path_m": {
+      "mean_difference": 1747.6572631283846,
+      "sd_difference": 459.36013622196765,
+      "positive_seeds": 30,
+      "relative_mean_pct": null
+    },
+    "reward": {
+      "mean_difference": 54.556003471556785,
+      "sd_difference": 31.014737049618823,
+      "positive_seeds": 30,
+      "relative_mean_pct": -157.95038811357398
+    },
+    "steps": {
+      "mean_difference": 0.0,
+      "sd_difference": 0.0,
+      "positive_seeds": 0,
+      "relative_mean_pct": 0.0
+    }
+  },
+  "inference_ms": {
+    "n": 1000,
+    "warmup": 50,
+    "mean": 0.11220072300000002,
+    "median": 0.1110765,
+    "p95": 0.11968205,
+    "max": 0.186252
+  },
+  "checkpoint": {
+    "num_timesteps": 1003520,
+    "n_envs": 8,
+    "n_steps": 512,
+    "batch_size": 256,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "n_epochs": 10,
+    "learning_rate": 0.0003,
+    "policy_kwargs": {
+      "net_arch": [
+        128,
+        128
+      ]
+    },
+    "seed": null
+  },
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "torch": "2.14.1+cu130",
+    "gymnasium": "1.4.0",
+    "sb3": "2.9.2",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "torch_threads": 1
+  },
+  "cpu": "12th Gen Intel(R) Core(TM) i5-12450H",
+  "parameter_count": 38277,
+  "syntax": [
+    "drone-rl/webots_world/controllers/epuck_ns3_ping2/epuck_ns3_ping2.py",
+    "drone-rl/webots_world/controllers/dieukhien/dieukhien.py",
+    "drone-rl/webots_world/controllers/epuck_ns3_ping/epuck_ns3_ping.py",
+    "drone-rl/webots_world/controllers/mavic2pro_patrol/mavic2pro_patrol.py",
+    "drone-rl/webots_world/controllers/epuck_ns3_ping1/epuck_ns3_ping1.py",
+    "drone-rl/webots_world/controllers/epuck_ns3_reciever/epuck_ns3_reciever.py"
+  ],
+  "files": {
+    "drone-rl/webots_world/controllers/dieukhien/ppo_uav_bs.zip": "cf4c19bc6d38ed600b41bf33244beac6ce98fb9736c3d7665a880afc0d741715",
+    "drone-rl/webots_world/controllers/dieukhien/vecnorm.pkl": "d15f0d84fbeff29a47a8dca7f065760569b2fbd5a19f04456cf7c2dc8fc26048",
+    "bao_cao_cuoi_ky/minh_chung/uav_bs_ppo_tham_chieu.py": "e4b4707fe1c9098ddf9def01687f7a210a047a05a16a650f39ef746fc6a4a7f1",
+    "drone-rl/webots_world/controllers/dieukhien/dieukhien.py": "df343b13ae2f35a50807342eb3e18f10237f6aa62ea636795f5c10bb4f398f91"
+  },
+  "webots_helper_samples": [
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "action": [
+        0.40698614716529846,
+        0.2163201868534088
+      ]
+    },
+    {
+      "position": [
+        0,
+        0,
+        5
+      ],
+      "action": [
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "position": [
+        10,
+        -10,
+        5
+      ],
+      "action": [
+        -1.0,
+        -0.18987524509429932
+      ]
+    }
+  ],
+  "mapping_case": {
+    "uav": [
+      100,
+      -50,
+      5
+    ],
+    "true_distances": [
+      200.06249023742558,
+      50.24937810560445,
+      150.08331019803634
+    ],
+    "fallback_distances": [
+      50.24937810560445,
+      200.06249023742558,
+      150.08331019803634
+    ]
+  },
+  "radius_tests": [
+    {
+      "distance_m": 149.999,
+      "forward": true
+    },
+    {
+      "distance_m": 150,
+      "forward": true
+    },
+    {
+      "distance_m": 150.001,
+      "forward": false
+    }
+  ]
+}
