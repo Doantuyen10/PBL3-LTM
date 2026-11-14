@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="vi">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>UAV Relay · Live</title><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
+<body>
+<header><div><span class="eyebrow">PBL3 / ĐIỀU HƯỚNG UAV</span><h1>Trung tâm giám sát <span>live</span></h1></div><div id="connection" role="status" class="badge wait">Đang kết nối…</div></header>
+<main>
+<div class="toolbar"><p><span id="phase">Chờ mô phỏng</span> <span class="muted">·</span> <span id="clock">0.00 s</span></p><div><button id="clear">Xóa quỹ đạo hiển thị</button><button id="download">Tải dữ liệu JSON</button></div></div>
+<section class="metrics" aria-label="Thông số bay">
+<article><span>Độ cao GPS</span><strong id="altitude">—</strong><small>Mục tiêu <span id="alt-target">—</span> m</small></article>
+<article><span>Vận tốc thực</span><strong id="speed">—</strong><small>Ước lượng từ GPS</small></article>
+<article><span>Năng lượng mô hình</span><strong id="battery">—</strong><small>Giá trị PPO, không phải pin đo</small></article>
+<article><span>Đã chuyển / đã nhận</span><strong id="packets">—</strong><small id="drops">Chờ gói dữ liệu</small></article>
+</section>
+<div class="layout"><section class="panel map-panel"><div class="panel-head"><div><h2>Không gian bay</h2><p>Nhìn từ trên xuống · tọa độ Webots (m)</p></div><label><input id="range" type="checkbox" checked> Vùng phủ</label></div><canvas id="map" aria-label="Bản đồ vị trí drone, các E-puck và quỹ đạo bay"></canvas><div class="legend"><span class="cyan">● Drone / quỹ đạo GPS</span><span class="purple">◇ Mục tiêu PPO</span><span class="green">● Liên kết tốt</span><span class="red">● Mất liên kết</span></div><p class="note">Vùng phủ là hình chiếu ngưỡng khoảng cách 3D 150 m. E-puck dùng tọa độ cố định trong world.</p></section>
+<aside class="panel"><div class="panel-head"><div><h2>Liên kết mạng</h2><p id="network-source">Chờ phản hồi ns-3</p></div></div><div id="links" class="links"></div><div class="network-metrics"><div><span>PDR ns-3</span><strong id="pdr">—</strong></div><div><span>Trễ gói gần nhất</span><strong id="delay">—</strong></div><div><span>Thông lượng ns-3</span><strong id="throughput">—</strong></div><div><span>Hỗ trợ điều hướng</span><strong id="assist">—</strong></div></div><p class="note">SNR là mẫu gần nhất từ ns-3; khoảng cách tính theo GPS hiện tại. “Chưa đo” không đồng nghĩa mất kết nối.</p></aside></div>
+<div class="bottom"><section class="panel"><div class="panel-head"><div><h2>Độ cao theo thời gian</h2><p>Tối đa 1.200 mẫu gần nhất · thời gian mô phỏng</p></div></div><canvas id="chart" aria-label="Biểu đồ độ cao GPS theo thời gian"></canvas></section><section class="panel"><div class="panel-head"><div><h2>Luồng gói tin</h2><p>30 sự kiện gần nhất · thống kê relay từ lúc khởi động</p></div></div><div class="table-wrap"><table><thead><tr><th>Thời gian</th><th>Nguồn</th><th>Seq</th><th>Kết quả</th></tr></thead><tbody id="events"><tr><td colspan="4">Chưa có gói tin</td></tr></tbody></table></div></section></div>
+<footer>Dữ liệu trực tiếp từ controller · <code>supervisor FALSE</code> · <span id="position">GPS: —</span></footer>
+</main></body></html>
